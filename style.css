@@ -1,0 +1,251 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+.main1{
+    width: 100vw;
+    height: 93vh;
+    background-image: url('https://preview.colorlib.com/theme/videograph/img/hero/hero-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sl1{
+
+    /* font: normal 40px/50px Arial, sans-serif; */
+    /* background: #ff3d54; */
+    color: #000;
+  }
+  .p {
+    height: 100px;
+    float: left;
+    margin-right: 0.3em;
+    margin-top: 0px;
+    overflow: hidden;
+  }
+  .b1{
+    float: left;
+    /* overflow: hidden; */
+    position: relative;
+    right: 30px;
+    height: 110px;
+    /* border: 2px solid blue; */
+  }
+  span1 {
+   display: inline-block;
+  color: #fff;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  animation: move 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  }
+  
+  @keyframes move {
+  0%  { top: 0px; }
+  20% { top: -50px; }
+  40% { top: -100px; }
+  60% { top: -150px; }
+  80% { top: -200px; }
+  }
+  .sl1{
+    width: 60%;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 180px;
+    /* border: 2px solid red; */
+  }
+  .bo2{
+    border-bottom: 2px solid #00BFE7;
+  }
+  .bo1:hover{
+    border-bottom:2px solid #00BFE7;
+    transition:0.9s;
+  }
+  .main2{
+    height: auto;
+    width: 100vw;
+    border: 2px solid red;
+    background-color: #100028;
+  }
+  .r1{
+    /* border: 2px solid white; */
+    height: auto;
+  }
+  .re1{
+    height: 90px;
+  }
+  .hi1{
+    height: 100%;
+  }
+  .img{
+    height: 80px;
+    width: 80px;
+    /* border: 2px solid #00BFE7; */
+
+  }
+  .img1{
+    height:50px;
+    width:50px;
+  }
+  .pra1{
+    position: relative;
+    bottom: 76px;
+  }
+  
+  .par1{
+    height: 50px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    right: 28px;
+    bottom: 80px;
+  }
+  .mainrow{
+    width: 100vw;
+    height: auto;
+    background-color: #100028;
+    border: 3px solid;
+  }
+  .maincol{
+    height: 100%;
+    width: 33.3%;
+    /* border: 2px solid blue; */
+  }
+  .subrow{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid darkorange; */
+    /* margin-top: 5px; */
+  }
+  .subcol{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid green; */
+  }
+  .imgrow{
+    height: 100%;
+    width: 100%;
+  }
+  .extra{
+    background-color: #100028;
+    height: 100px;
+    width: 100vw;
+  }
+  .main3{
+    width: 100vw;
+    height: 100vh;
+    background-color: #100028;
+  }
+  .sub3{
+    /* border: 2px solid white; */
+    height: 100%;
+  }
+  
+  .subcol3{
+    /* border: 2px solid #00BFE7; */
+    transform: rotate(120deg);
+    background-color: #1A083D;
+    height: 300px;
+    width: 300px;
+    /* border-top: 2px solid #00BFE7; */
+    border-bottom: none;
+    border-width: 5px;
+   
+  }
+  .deg{
+    transform: rotate(-120deg);
+    /* border: 2px solid gold; */
+    background-color: #1A083D;
+    /* padding-left: -200px; */
+    position: relative;
+    top: 40px;
+  }
+  .anim{
+    border: 2px solid #00BFE7;
+    height: 300px;
+    width: 300px;
+    border-top: 2px solid #00BFE7;
+    border-bottom:2px solid red;
+    border-left: 2px solid green;
+    border-right: 2px solid yellow;
+    /* border-bottom: none; */
+    border-width: 5px;
+    animation-name: zip;
+    animation-iteration-count: infinite;
+    transform: 0.5s;
+    animation-duration: 2.9s;
+    position: relative;
+    top: -240px;
+  }
+  .main4{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://preview.colorlib.com/theme/videograph/img/team-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .sub4{
+    height: 100%;
+    /* border: 2px solid white; */
+  }
+  .blue{
+    color: #00BFE7;
+    font-weight: 800;
+    font-size: 65px;
+    position: relative;
+    bottom: 50px;
+  }
+  .subimg5:hover{
+    transform:rotate(350deg);
+  }
+  
+  @keyframes zip{
+    0%{
+      transform: rotate(0deg);
+    }
+    25%{
+      transform: rotate(90deg);
+    }
+    50%{
+      transform: rotate(180deg);
+    }
+    75%{
+      transform: rotate(270deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  .main6{
+    height: 70vh;
+    width: 100vw;
+    border: 2px solid black;
+    background-image: url('https://preview.colorlib.com/theme/videograph/img/callto-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+  .ft1{
+    background-color: black;
+    /* color: white; */
+  }
+  .ft1 a{
+    text-decoration: none;
+  }
+  .ex1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid #00BFE7;
+    position: relative;
+    bottom: 80px;
+
+  }.ex1:hover{
+    transform: rotate(45deg);
+    transition:0.9s;
+  }

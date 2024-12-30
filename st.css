@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;;
+    box-sizing: border-box;
+}
+.buten{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 50px; */
+    /* background: #031321; */
+    font-family: consolas;
+}
+
+b {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 0.2s;
+    height: 50px;
+   
+}
+
+
+
+b:hover {
+    color: #00BFE7;
+    border: 2px solid #00BFE7;
+    transition-delay: 1s;
+}
+
+
+b span {
+    position: absolute;
+    display: block;
+}
+
+
+
+
+b span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00BFE7);
+}
+
+
+
+b:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+
+b span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #00BFE7);
+}
+
+b:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+
+
+b span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #00BFE7);
+}
+
+b:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+
+
+b span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #00BFE7);
+}
+
+b:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.semain1{
+    height: 50vh;
+    width: 100vw;
+    background-image: url('https://preview.colorlib.com/theme/videograph/img/breadcrumb-bg.jpg');
+    background-repeat: no-repeat;
+}
+.con1{
+    height: 90vh;
+    width: 100vh;
+    background-color: #100028;
+}
